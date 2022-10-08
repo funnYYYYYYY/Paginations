@@ -16,18 +16,6 @@
   gap: 16px;
 }
 
-/* .page-btn:not(:first-child) {
-  margin-left: 16px;
-}
-
-.direction-movement {
-  margin-left: 16px;
-}
-
-.dots {
-  margin-left: 16px;
-} */
-
 .page-btn,
 .dots,
 .direction-movement {

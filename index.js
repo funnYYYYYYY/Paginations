@@ -117,6 +117,7 @@ class PaginationButtons {
         currentPageBtn.classList.remove("active");
         btn.classList.add("active");
         currentPageBtn = btn;
+        currentPageBtn.focus();
       }
     };
 
