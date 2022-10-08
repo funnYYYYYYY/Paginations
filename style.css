@@ -1,0 +1,75 @@
+.click-left,
+.click-right {
+  width: 40px;
+  height: 40px;
+  background-color: F7F7F7;
+  display: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.pages {
+  align-items: center;
+  display: flex;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.page-btn:not(:first-child) {
+  margin-left: 16px;
+}
+
+.direction-movement {
+  margin-left: 16px;
+}
+
+.dots {
+  margin-left: 16px;
+}
+
+.page-btn,
+.dots,
+.direction-movement {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.direction-movement {
+  background-color: #f7f7f7;
+  width: 70px;
+}
+
+.prev-page {
+  border-radius: 25px 5px 5px 25px;
+}
+
+.next-page {
+  border-radius: 5px 25px 25px 5px;
+}
+
+.page-btn:hover,
+.dots:hover,
+.direction-movement:hover,
+.page-btn:focus,
+.dots:focus,
+.direction-movement:focus,
+.active {
+  background-color: #ff6b08;
+  color: white;
+}
+
+.tak {
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  border: none;
+  transition: all 0.3s ease;
+}
