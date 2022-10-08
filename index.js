@@ -131,7 +131,7 @@ class PaginationButtons {
     );
     buttons.set(
       createAndSetupButton(
-        "Prev",
+        "Previous",
         "prev-page",
         disabled.prev(),
         () => (currentPage -= 1)

@@ -13,9 +13,10 @@
   display: flex;
   margin-top: 60px;
   margin-left: 20px;
+  gap: 16px;
 }
 
-.page-btn:not(:first-child) {
+/* .page-btn:not(:first-child) {
   margin-left: 16px;
 }
 
@@ -25,7 +26,7 @@
 
 .dots {
   margin-left: 16px;
-}
+} */
 
 .page-btn,
 .dots,
@@ -52,15 +53,12 @@
 .start-page,
 .prev-page,
 .next-page {
-  background-color: #f7f7f7;
+  background-color: #ddd;
+  width: 80px;
 }
 
 .page-btn:hover,
-.dots:hover,
-.direction-movement:hover,
 .page-btn:focus,
-.dots:focus,
-.direction-movement:focus,
 .active {
   background-color: #ff6b08;
   color: white;
@@ -72,7 +70,19 @@
 }
 
 button {
+  background: none;
+  appearance: none;
+
   cursor: pointer;
   border: none;
   transition: all 0.3s ease;
+}
+
+.page-btn[disabled] {
+  opacity: 0.3;
+}
+
+.page-btn[disabled]:hover {
+  background-color: transparent;
+  cursor: none;
 }
