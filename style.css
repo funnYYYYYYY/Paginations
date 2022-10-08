@@ -40,17 +40,19 @@
   justify-content: center;
 }
 
-.direction-movement {
-  background-color: #f7f7f7;
-  width: 70px;
-}
-
 .prev-page {
   border-radius: 25px 5px 5px 25px;
 }
 
 .next-page {
   border-radius: 5px 25px 25px 5px;
+}
+
+.end-page,
+.start-page,
+.prev-page,
+.next-page {
+  background-color: #f7f7f7;
 }
 
 .page-btn:hover,
@@ -70,6 +72,7 @@
 }
 
 button {
+  cursor: pointer;
   border: none;
   transition: all 0.3s ease;
 }
