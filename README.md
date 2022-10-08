@@ -1,1 +1,1 @@
-# Paginations
+# goit-js-hw-11
